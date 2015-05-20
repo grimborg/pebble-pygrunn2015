@@ -6,7 +6,7 @@ Schedule schedule = {.num_slots = 15, .slots = {
     {.time = "09:50-10:00", .title = "Welcome speech", .is_common = 1},
     {.time = "10:15-10:45", .is_common = 0, .num_sessions = 3, .sessions = {
         {.start = "10:15", .title = "Leveraging Procedural Knowledge", .presenter = "K Rain Leander", .room = 2},
-        {.start = "10:15", .title = "Orchestrating Python projects using CoreOS", .presenter = "Òscar Vilaplana", .room = 3},
+        {.start = "10:15", .title = "Creating a high performance server in Python", .presenter = "Dorian Hoxha", .room = 3},
         {.start = "10:15", .title = "Leveraging RPython For Efficient Real-Time Audio Processing", .presenter = "Emil Loer", .room = 4}
     }},
     {.time = "11:00-11:30", .is_common = 0, .num_sessions = 3, .sessions = {
@@ -17,7 +17,7 @@ Schedule schedule = {.num_slots = 15, .slots = {
     {.time = "11:45-12:15", .is_common = 0, .num_sessions = 3, .sessions =  {
         {.start = "11:45", .title = "Python, WebRTC and you", .presenter = "Saúl Ibarra Corretgé", .room = 1},
         {.start = "11:45", .title = "Contract languages based on Python", .presenter = "Henk Doornbos", .room = 2},
-        {.start = "15:30", .title = "Tornado and IO in Python 3", .presenter = "Sylvain Viollon", .room = 3}
+        {.start = "11:45", .title = "Tornado and IO in Python 3", .presenter = "Sylvain Viollon", .room = 3}
 
     }},
     {.time = "12:15-13:00", .title = "Lunch", .is_common = 1},
@@ -39,10 +39,11 @@ Schedule schedule = {.num_slots = 15, .slots = {
     {.time = "15:00-15:30", .title = "Break", .is_common = 1},
     {.time = "15:30-16:00", .is_common = 0, .num_sessions = 2, .sessions = {
         {.start = "15:30", .title = "Advanced REST APIs", .presenter = "Lars de Ridder", .room = 1},
-        {.start = "15:30", .title = "Microservices: The decentralized future of Python and friends?", .presenter = "Berco Beute", .room = 2}
+        {.start = "15:30", .title = "Microservices: The decentralized future of Python and friends?", .presenter = "Berco Beute", .room = 2},
+        {.start = "15:30", .title = "Testing and version control for water management", .presenter = "Reinout van Rees", .room = 2}
     }},
     {.time = "16:15-16:45", .is_common = 0, .num_sessions = 1, .sessions = {
-        {.start = "16:15", .title = "ElasticSearch", .presenter = "Boaz Leskes", .room = 2}
+        {.start = "16:15", .title = "Orchestrating Python projects using CoreOS", .presenter = "Òscar Vilaplana", .room = 2},
     }},
     {.time = "17:00-17:30", .is_common = 0, .num_sessions = 1, .sessions = {
         {.start = "17:00", .title = "ZeroMQ", .presenter = "Pieter Hintjens", .room = 2}
